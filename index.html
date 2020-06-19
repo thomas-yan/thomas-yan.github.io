@@ -2,12 +2,89 @@
 <html>
   <head>
     <title>The Homepage of YCY</title>
+    <meta
+      name="description"
+      content="The homepage of YCY. I dream, therefore I am."
+    />
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The Homepage of YCY" />
+    <meta
+      property="og:description"
+      content="The homepage of YCY. I dream, therefore I am."
+    />
+    <meta property="og:site_name" content="The Homepage of YCY" />
+    <meta property="og:url" content="https://www.yanchiyang.rocks" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="The Homepage of YCY" />
+    <meta
+      name="twitter:description"
+      content="The homepage of YCY. I dream, therefore I am."
+    />
+    <meta name="twitter:site" content="@YCY" />
+    <meta name="twitter:creator" content="@YCY" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="canonical" href="https://www.yanchiyang.rocks" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <style type="text/css">
+      .fa-gem:before {
+        content: "\f3a5";
+      }
+      .fa-github:before {
+        content: "\f09b";
+      }
+      .fa-soundcloud:before {
+        content: "\f1be";
+      }
+      @font-face {
+        font-family: "Font Awesome 5 Brands";
+        font-style: normal;
+        font-weight: normal;
+        font-display: auto;
+        src: url(assets/webfonts/fa-brands-400.eot);
+        src: url(assets/webfonts/fa-brands-400.eot?#iefix)
+            format("embedded-opentype"),
+          url(assets/webfonts/fa-brands-400.woff2) format("woff2"),
+          url(assets/webfonts/fa-brands-400.woff) format("woff"),
+          url(assets/webfonts/fa-brands-400.ttf) format("truetype"),
+          url(assets/webfonts/fa-brands-400.svg#fontawesome) format("svg");
+      }
+      @font-face {
+        font-family: "Font Awesome 5 Free";
+        font-style: normal;
+        font-weight: 400;
+        font-display: auto;
+        src: url(assets/webfonts/fa-regular-400.eot);
+        src: url(assets/webfonts/fa-regular-400.eot?#iefix)
+            format("embedded-opentype"),
+          url(assets/webfonts/fa-regular-400.woff2) format("woff2"),
+          url(assets/webfonts/fa-regular-400.woff) format("woff"),
+          url(assets/webfonts/fa-regular-400.ttf) format("truetype"),
+          url(assets/webfonts/fa-regular-400.svg#fontawesome) format("svg");
+      }
+    </style>
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
@@ -59,8 +136,15 @@
         <article id="tools">
           <h2 class="major">TOOLS</h2>
           <span class="image main"
-            ><img src="images/tools.png" alt="tools"
-          /></span>
+            ><picture>
+              <source data-srcset="images/tools.webp" type="image/webp" />
+              <source data-srcset="images/tools.jpg" type="image/jpeg" />
+              <img
+                data-src="images/tools.jpg"
+                class="lazyload"
+                alt="tools"
+              /> </picture
+          ></span>
           <p>
             <a
               target="_blank"
@@ -146,8 +230,15 @@
         <article id="code">
           <h2 class="major">CODE</h2>
           <span class="image main"
-            ><img src="images/code.png" alt="code"
-          /></span>
+            ><picture>
+              <source data-srcset="images/code.webp" type="image/webp" />
+              <source data-srcset="images/code.jpg" type="image/jpeg" />
+              <img
+                data-src="images/code.jpg"
+                class="lazyload"
+                alt="code"
+              /> </picture
+          ></span>
           <p>
             <a
               target="_blank"
@@ -199,8 +290,15 @@
         <article id="music">
           <h2 class="major">Music</h2>
           <span class="image main"
-            ><img src="images/music.png" alt="code"
-          /></span>
+            ><picture>
+              <source data-srcset="images/music.webp" type="image/webp" />
+              <source data-srcset="images/music.jpg" type="image/jpeg" />
+              <img
+                data-src="images/music.jpg"
+                class="lazyload"
+                alt="music"
+              /> </picture
+          ></span>
           <p>
             <a
               target="_blank"
@@ -223,13 +321,20 @@
         <article id="about">
           <h2 class="major">About</h2>
           <span class="image main"
-            ><img src="images/about.png" alt="about"
-          /></span>
+            ><picture>
+              <source data-srcset="images/about.webp" type="image/webp" />
+              <source data-srcset="images/about.jpg" type="image/jpeg" />
+              <img
+                data-src="images/about.jpg"
+                class="lazyload"
+                alt="about"
+              /> </picture
+          ></span>
           <p>
             MY_LOVE = [CODING, MUSIC, FILM]
           </p>
           <p>
-            ALIAS YCY = THOMAS YAN  ||  LINWISH  ||  DELAYSHEEP
+            ALIAS YCY = THOMAS YAN || LINWISH || DELAYSHEEP
           </p>
         </article>
 
@@ -237,8 +342,15 @@
         <article id="contact">
           <h2 class="major">Contact</h2>
           <span class="image main"
-            ><img src="images/contact.png" alt="contact"
-          /></span>
+            ><picture>
+              <source data-srcset="images/contact.webp" type="image/webp" />
+              <source data-srcset="images/contact.jpg" type="image/jpeg" />
+              <img
+                data-src="images/contact.jpg"
+                class="lazyload"
+                alt="contact"
+              /> </picture
+          ></span>
           <p>Email: linwish@protonmail.com</p>
           <br />
           <br />
@@ -277,11 +389,12 @@
     <div id="bg"></div>
 
     <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/user.js"></script>
+    <script src="assets/js/jquery.min.js" async></script>
+    <script src="assets/js/browser.min.js" async></script>
+    <script src="assets/js/breakpoints.min.js" async></script>
+    <script src="assets/js/util.js" async></script>
+    <script src="assets/js/main.js" async></script>
+    <script src="assets/js/user.js" async></script>
+    <script src="assets/js/lazysizes.min.js" async></script>
   </body>
 </html>
